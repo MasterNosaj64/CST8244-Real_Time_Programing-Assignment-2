@@ -1,24 +1,8 @@
-# Title Assign
+#Real Time Programing - Assignment 2 - CST8244 - Algonquin College - Computer Engineering - Computing Science
 
-##AUTHOR
-Jason Waid waid005@algonquinlive.com
-
-## Status
-The assignment is complete, all requirements are met. Processes are killed approprietely and expected messages are
-printing to the screen. No Crashes
-I also handled a few points of input validation that are not mentioend in the assignment such as:
-	incomplete set command (missing params)
-		No vals are set unless all params are entered
-		usage message will follow
-	incomplete pause comand (no pause val)
-		usage message will follow
- 
-## Known Issues
-My nano secs is sometimes slightly different than your expected output. For example, instead of 150000000 i can get 150000005.
-Unfortaently i have to pick my battles, and had to move on to other things. Hoping this small nuance doesn't amount to much
-
-
-## Expected Grade
-I'm expecting full marks but the slight nanosec difference could impact my grade I suppose. It really depends how important that tiny flaw becomes
-
-Thank you,
+-  Build a metronome program as a QNX resource manager for "/dev/local/metronome".
+-  Implement features to pause the metronome for 1-9 seconds via console commands.
+-  Ensure the metronome operates with visual output to simulate "clicks".
+-  Accept three command-line parameters: beats-per-minute, time-signature-top, time-signature-bottom.
+-  Program must correctly output single characters at a rate based on the beats-per-minute and time-signature parameters.
+-  Include error handling for invalid commands and provide a help feature displaying the metronome's API.
